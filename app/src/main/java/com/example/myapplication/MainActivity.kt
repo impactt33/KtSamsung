@@ -62,7 +62,7 @@ class MainActivity : ComponentActivity() {
                         )
                     }
                 ) { innerPadding ->
-                    Task6(modifier = Modifier.padding(innerPadding))
+                    WaterTracker()
                 }
             }
         }
@@ -119,6 +119,12 @@ fun Task6(modifier: Modifier = Modifier) {
     showSystemUi = true
 )
 @Composable
-fun Task6Preview() {
-    Task6()
+fun Task7Preview() {
+    Task7(
+        name = "Oleg",
+        lastname = "Ruban",
+        age = 14,
+        phoneNumber = "88005553535"
+    )
 }
+
